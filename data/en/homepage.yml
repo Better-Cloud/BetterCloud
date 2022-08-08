@@ -1,0 +1,42 @@
+slider:
+  enable : true
+  slider_item:
+    ################# Slider item loop
+    - title : "Manage your cloud better!"
+      subtitle : "with a Better Cloud Management solution"
+      bg_image : "images/slider/bg1.jpg"
+      image : ""
+      image_position : "false"
+      # slider navigator
+      navigator:
+        label : "Eterprise"
+        icon : "fa-cloud-upload" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+      # slider buttons
+      buttons:
+        - label : "Learn More"
+          style : "solid"
+          link : "http://ecppro.com"
+
+    ############### Slider item loop
+    - title : "Manage multiple Azure tenants better!"
+      subtitle : "with a Better Cloud Management solution"
+      bg_image : "images/slider/bg1.jpg"
+      # slider navigator
+      navigator:
+        label : "MSP"
+        icon : "fa-laptop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+
+      buttons:
+        - label : "Learn More"
+          style : "solid"
+          link : "http://ecppro.com"
+    
+
+############################### Service ####################################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+  

@@ -1,0 +1,84 @@
+######################## default configuration ####################
+baseURL = "https://bettercloudsolution.com/"
+title = "Better Cloud"
+theme = "bizcraft-hugo"
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "10"
+publishDir = "docs"
+
+
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/font-awesome.min.css"
+[[params.plugins.css]]
+link = "plugins/animate.css"
+[[params.plugins.css]]
+link = "plugins/prettyPhoto.css"
+[[params.plugins.css]]
+link = "plugins/owl/owl.carousel.css"
+[[params.plugins.css]]
+link = "plugins/owl/owl.theme.css"
+[[params.plugins.css]]
+link = "plugins/flex-slider/flexslider.css"
+[[params.plugins.css]]
+link = "plugins/cd-hero/cd-hero.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/style-switcher.js"
+[[params.plugins.js]]
+link = "plugins/owl/owl.carousel.js"
+[[params.plugins.js]]
+link = "plugins/jquery.prettyPhoto.js"
+[[params.plugins.js]]
+link = "plugins/flex-slider/jquery.flexslider.js"
+[[params.plugins.js]]
+link = "plugins/cd-hero/cd-hero.js"
+[[params.plugins.js]]
+link = "plugins/isotope.js"
+[[params.plugins.js]]
+link = "plugins/ini.isotope.js"
+[[params.plugins.js]]
+link = "plugins/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/jquery.easing.1.3.js"
+[[params.plugins.js]]
+link = "plugins/jquery.counterup.min.js"
+[[params.plugins.js]]
+link = "plugins/waypoints.min.js"
+
+
+############################## English navigation ###############################
+
+
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/bc-logo2.png"
+
+# Meta data
+description = "Better Cloud"
+author = "Better Cloud"
+copyright = "Copyright &copy; 2022 Better Cloud"
+
+
