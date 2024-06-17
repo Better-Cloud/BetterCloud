@@ -16,7 +16,7 @@ slider:
       buttons:
         - label : "Learn More"
           style : "solid"
-          link : "http://ecppro.com"
+          link : "http://bettercloudsolution.com"
 
     ############### Slider item loop
     - title : "Manage multiple Azure tenants better!"
@@ -31,7 +31,7 @@ slider:
       buttons:
         - label : "Learn More"
           style : "solid"
-          link : "http://ecppro.com"
+          link : "http://bettercloudsolution.com"
     
 
 ############################### Service ####################################
